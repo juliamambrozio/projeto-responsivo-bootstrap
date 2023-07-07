@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap4/css/bootstrap.min.css">
+
+    <title>Bootstrap - Alinhamento de textos</title>
+  </head>
+
+  <body style="margin-bottom: 200px;padding: 16px;">
+
+
+    <!-- Parágrafo justificado -->
+    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+
+    <br>
+    <br>
+
+    <!-- 
+        Alinhamento responsivo - text-<tela>-<alinhamento>
+            tela: sm (Small), md (Medium), lg (Large), xl (Extra Large)
+            alinhamento: left, center, right
+     -->
+    <p class="text-sm-right">tela &gt;= 576px</p><!--Small, aplica configurações a telas maiores ou iguais a 576px-->
+    <p class="text-md-right">tela &gt;=  768px</p><!--Medium-->
+    <p class="text-lg-right">tela &gt;= 992px</p><!--Large-->
+    <p class="text-xl-right">tela &gt;= 1200px</p><!--Extra Large-->
+
+    <br>
+    <br>
+
+    <!-- Elemento Block para inline -->
+    <h1 class="bg-warning d-inline">Lorem ipsum dolor</h1>
+    <p class="bg-success d-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <br>
+    <br>
+
+    <!-- Elemento Inline para Block -->
+    <span class="bg-warning d-block">Lorem ipsum dolor 1</span>
+    <br>
+    <span class="bg-success d-block">Lorem ipsum dolor 2</span>
+
+    <br>
+    <br>
+
+    <!-- Elemento Inline-Block -->
+    <h3 class="bg-warning d-inline-block">Lorem ipsum</h3>
+    <h3 class="bg-success d-inline-block" style="width: 200px; margin-top: 20px;">Lorem ipsum dolor</h3>
+
+    <!-- Inline- não dá para colocar margin superior e ele se comporta de acordo com o conteúdo
+    Block e inline-block consegue fazer essas configurações-->
+
+
+
+
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="../bootstrap4/js/bootstrap.min.js"></script>
+  </body>
+</html>
