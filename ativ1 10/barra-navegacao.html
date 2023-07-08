@@ -58,6 +58,35 @@
     
 
     <h2>Barra de navegação com menu responsivo</h2>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> <!-- navbar-expando-sm: responsável pela responsividade -->
+      <!-- logo -->
+      <a href="#" class="navbar-brand">Chalé Hotel</a><!-- navbar-brand: logo -->
+
+      <!-- Menu Hamburguer -->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao"> 
+        <!-- efeito arredondado 
+            - clicar e aparecer
+            - o que deve aparecer (ID)-->
+        <span class="navbar-toggler-icon"></span> <!-- ícone de menu hamburguer -->
+        
+      </button>
+
+
+      <!-- navegação -->
+      <div class="collapse navbar-collapse" id="navegacao"> <!-- faz sumir e posicionar a navegação-->
+        <ul class="navbar-nav ml-auto"> <!-- Joga para o canto  -->
+          <li class="nav-item">
+            <a href="#" class="nav-link ">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
    
     
 
