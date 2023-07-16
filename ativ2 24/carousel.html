@@ -22,16 +22,148 @@
         <div class="col-sm-8 m-auto"><!--col-sm8 -->
           
           <h1>Slider simples</h1>
+          <!-- config carousel -->
+          <div class="caorusel slide" data-ride="carousel"> <!-- começo carousel -->
+            <div class="carousel-inner"> <!-- começo inner -->
+
+              <div class="carousel-item active"> <!-- active: qual primeiro ítem a ser exibido -->
+                <img src="img/imagem1.jpeg" alt="" class="img-fluid">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/imagem2.jpeg" alt="" class="img-fluid">
+              </div>
+
+            </div> <!-- fim inner -->
+          </div> <!-- fim carousel -->
           
 
           <h1>Slider com controles</h1>
+            <!-- config carousel -->
+            <div id="carousel-controles" class="carousel slide" data-ride="carousel"> <!-- começo carousel -->
+              <div class="carousel-inner"> <!-- começo inner -->
+  
+                <div class="carousel-item active"> <!-- active: qual primeiro ítem  a ser exibido -->
+                  <img src="img/imagem4.jpeg" alt="" class="img-fluid">
+                </div>
+  
+                <div class="carousel-item">
+                  <img src="img/imagem2.jpeg" alt="" class="img-fluid">
+                </div>
+  
+              </div>  <!-- fim inner -->
+
+              <!-- Controles -->
+              <a href="#carousel-controles" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+
+              <a href="#carousel-controles" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+
+            </div> <!-- fim carousel -->
+            
           
 
           <h1>Slider com controles/indicadores</h1>
+           <!-- config carousel -->
+           <div id="carousel-indicadores" class="carousel slide" data-ride="carousel"> <!-- começo carousel -->
+
+            <!-- Indicadores -->
+            <ol class="carousel-indicators"> <!-- ícone -->
+              <!-- ordem -->
+              <li data-target="#carousel-indicadores" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-indicadores" data-slide-to="1"></li>
+              <li data-target="#carousel-indicadores" data-slide-to="2"></li>
+
+            </ol>
+
+            <div class="carousel-inner"> <!-- começo inner -->
+
+              <div class="carousel-item active"> <!-- active: qual primeiro ítem  a ser exibido -->
+                <img src="img/imagem3.jpeg" alt="" class="img-fluid">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/imagem4.jpeg" alt="" class="img-fluid">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/imagem5.jpeg" alt="" class="img-fluid">
+              </div>
+
+            </div>  <!-- fim inner -->
+
+            <!-- Controles -->
+            <a href="#carousel-indicadores" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#carousel-indicadores" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+
+          </div> <!-- fim carousel -->
         
 
           <h1>Slider com legendas</h1>
-          
+            <!-- config carousel -->
+           <div id="carousel-legenda" class="carousel slide" data-ride="carousel"> <!-- começo carousel -->
+
+            <!-- Indicadores -->
+            <ol class="carousel-indicators"> <!-- ícone -->
+              <!-- ordem -->
+              <li data-target="#carousel-legenda" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-legenda" data-slide-to="1"></li>
+              <li data-target="#carousel-legenda" data-slide-to="2"></li>
+
+            </ol>
+            
+            <div class="carousel-inner"> <!-- começo inner -->
+
+              <div class="carousel-item active"> <!-- active: qual primeiro ítem  a ser exibido -->
+                <img src="img/imagem3.jpeg" alt="" class="img-fluid">
+                
+                <div class="carousel-caption">  <!-- legenda -->
+                  <h3>Título 1</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus non eum maxime distinctio accusamus illo magnam odio quasi excepturi, nesciunt culpa, aliquid, incidunt amet facilis architecto assumenda voluptatibus laudantium! Nulla.</p>
+
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/imagem4.jpeg" alt="" class="img-fluid">
+
+                <div class="carousel-caption">  <!-- legenda -->
+                  <h3>Título 2</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus non eum maxime distinctio accusamus illo magnam odio quasi excepturi, nesciunt culpa, aliquid, incidunt amet facilis architecto assumenda voluptatibus laudantium! Nulla.</p>
+
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/imagem5.jpeg" alt="" class="img-fluid">
+
+                <div class="carousel-caption"> <!-- legenda -->
+                  <h3>Título 3</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus non eum maxime distinctio accusamus illo magnam odio quasi excepturi, nesciunt culpa, aliquid, incidunt amet facilis architecto assumenda voluptatibus laudantium! Nulla.</p>
+
+                </div>
+              </div>
+
+            </div>  <!-- fim inner -->
+
+            <!-- Controles -->
+            <a href="#carousel-legenda" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#carousel-legenda" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+
+          </div> <!-- fim carousel -->
 
         </div><!--/col-sm8 -->
       </div><!--/Row -->
