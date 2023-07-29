@@ -1,0 +1,56 @@
+PROJETO FINANS: Nav responsível, sistema de grids (separação), flex-box, 
+ícones, append (prepend), display block e none em imagem e imagem fluída 
+
+PROJETO SPOTIFY: Nav responsível e fixa no top, sistema de grids, combinando 
+vários backgrounds, efeito Parallax, sobrepondo formatações do BootStrap, 
+divisor, sistema de grids, media query, transition, uma divisão dentro da outra,
+rotacionar imagem e imagens responsivas, prefixos, escondendo barra de rolagem,
+escondendo imagem, float, carousel e desativar slide automático
+
+
+--------------------------------------------------------------
+Projeto Resposivo & Bootstrap
+
+Layout líquido: Mantém sempre a mesma config, mas se adapta a 
+cada tamanho de tela
+Layout responsível: Pode mudar a config, mais vantajoso e de adapta melhor
+Layout adaptível: Cria vários sistemas para cada tipo de tela
+
+-ativ 1: Configurando o bootstrap, explicações de algumas tags do B.S 
+formatações de textos
+-ativ 2: Alinhamento responsível com textos, block para inline (vice e versa),
+elemento inline-block
+-ativ 3: Elementos flutuantes, clear, posicionamento fixo (top e bottom),
+sticky (Quando o elemento cola no topo ele fica fixo)
+-ativ 4: Cores, formatações de links, formatação de background
+-ativ 5: Margin e Padding
+-ativ 6: Width e Height, bordas, border-radius
+--------------------------------------------------------------
+MEDIA QUERY
+-ativ 7: Media para impressão (media type)
+-ativ 8: Formatações de acordo com o tamanho da tela (media query)
+--------------------------------------------------------------
+-ativ 9: Botões, contorno, ativo e inativo, estilo block, botões horizontais e 
+verticais, quando clica exibe conteúdos
+-ativ 10: Navs (simples, abas, menu hambúrguer, com pesquisa, dropdown, 
+cores, alinhamentos top, bottom e sticky)
+-ativ 11: Listas, aviso, caminho que o usuário seguiu
+-ativ 12: Formulários (text, option, textarea, upload, range, 
+inline, validação)
+-ativ 13: Inputs group (exibir texto antes e depois)
+-ativ 14: Alertas e barras de progresso (normal, listrada, animada, várias 
+barras)
+-ativ 15: Tabelas (cor, bordas, responsiva com scroll horizontal) 
+e Paginação (formatação, setas, tag para apenas leitores de tela)
+-ativ 16: Cards (com imagem, cabeçalho. rodapé, alinhamento, navegação, cores,
+colunas)
+-ativ 17: Jumbotron (área de destaque), estrutura de imagens, alinhamento, 
+lista com imagens
+-ativ 18: Site de ícones e linkagem (Fontawesome e Iconic)
+-ativ 19: Sistema de grid (responsível, quantas colunas vai ocupar, quebra)
+-ativ 20: Largura fixa, automática, empilhada, ordenando, pular espaçamentos
+e alinhamento
+-ativ 21: Alinhamentos (utiliza flex-box)
+-ativ 22: Flex container, intens, alinhamento horizontal
+-ativ 23: Margin e Wrap (Encolhe e se adapta)
+-ativ 24: Carousel (simples, controles, indicadores, legendas)
